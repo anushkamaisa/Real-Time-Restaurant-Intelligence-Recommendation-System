@@ -1,0 +1,58 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+[Stage 0:>                                                          (0 + 1) / 1]                                                                                [Stage 1:>                                                          (0 + 1) / 1]                                                                                [Stage 2:>                                                          (0 + 1) / 1][Stage 2:===========================================================(1 + 0) / 1][Stage 4:>                                                          (0 + 1) / 1]                                                                                [Stage 5:>                                                          (0 + 1) / 1]                                                                                === Top Cities by Average Rating ===
++----------------+------------------+-----------------+------------------+
+|City            |avg_rating        |total_restaurants|avg_cost          |
++----------------+------------------+-----------------+------------------+
+|Inner City      |4.9               |2                |1120.0            |
+|Quezon City     |4.8               |1                |800.0             |
+|Makati City     |4.65              |2                |1150.0            |
+|Pasig City      |4.633333333333333 |3                |933.3333333333334 |
+|Mandaluyong City|4.625             |4                |2000.0            |
+|Beechworth      |4.6               |1                |20.0              |
+|London          |4.534999999999999 |20               |64.5              |
+|Taguig City     |4.525             |4                |1725.0            |
+|Secunderabad    |4.5               |2                |825.0             |
+|Tagaytay City   |4.5               |1                |1200.0            |
+|Lincoln         |4.5               |1                |25.0              |
+|Orlando         |4.4750000000000005|20               |40.25             |
+|Tampa Bay       |4.41              |20               |34.75             |
+|Rest of Hawaii  |4.41              |20               |31.75             |
+|Tanunda         |4.4               |1                |30.0              |
+|Palm Cove       |4.4               |1                |30.0              |
+|Bangalore       |4.375000000000001 |20               |1232.5            |
+|Dubai           |4.369999999999999 |20               |211.75            |
+|Pasay City      |4.366666666666666 |3                |3333.3333333333335|
+|Jakarta         |4.35625           |16               |308437.5          |
++----------------+------------------+-----------------+------------------+
+
+=== Top Cuisines by Average Rating ===
++-------------------------------------+----------+-----------------+
+|cuisine                              |avg_rating|total_restaurants|
++-------------------------------------+----------+-----------------+
+|Sunda, Indonesian                    |4.9       |3                |
+|American, BBQ, Sandwich              |4.9       |1                |
+|American, Burger, Grill              |4.9       |1                |
+|Hawaiian, Seafood                    |4.9       |1                |
+|Mexican, American, Healthy Food      |4.9       |1                |
+|Mughlai, Lucknowi                    |4.9       |1                |
+|BBQ, Breakfast, Southern             |4.9       |1                |
+|World Cuisine                        |4.9       |1                |
+|American, Coffee and Tea             |4.9       |1                |
+|American, Sandwich, Tea              |4.9       |1                |
+|European, Contemporary               |4.9       |1                |
+|Italian, Bakery, Continental         |4.9       |1                |
+|American, Caribbean, Seafood         |4.9       |1                |
+|Continental, Indian                  |4.9       |1                |
+|Italian, Deli                        |4.9       |1                |
+|European, German                     |4.9       |1                |
+|European, Asian, Indian              |4.9       |1                |
+|Burger, Bar Food, Steak              |4.9       |1                |
+|Filipino, Mexican                    |4.85      |2                |
+|European, Mediterranean, North Indian|4.8       |3                |
++-------------------------------------+----------+-----------------+
+
+SUCCESS: The process with PID 35688 (child process of PID 28236) has been terminated.
+SUCCESS: The process with PID 28236 (child process of PID 30248) has been terminated.
+SUCCESS: The process with PID 30248 (child process of PID 9388) has been terminated.

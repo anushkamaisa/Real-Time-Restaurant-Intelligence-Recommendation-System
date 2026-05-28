@@ -1,0 +1,8 @@
+streamlit
+pandas
+plotly
+scikit-learn
+numpy
+kafka-python
+pyspark
+graphframes
